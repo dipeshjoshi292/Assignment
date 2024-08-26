@@ -1,3 +1,4 @@
+//QUES-01
 #include <iostream>
 using namespace std;
 int main() { 
@@ -8,4 +9,35 @@ string a;
   cout<<"Enter the second string:  ";
   cin>>b;
   cout<<"Concated string: "<< a <<" "+ b;
+}
+
+//QUES-02
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+  int a,b,c,d,e;
+  double avg;
+  cout<<"Enter Grade 1: ";
+  cin>>a;
+  cout<<"Enter Grade 2: ";
+  cin>>b;
+  cout<<"Enter Grade 3: ";
+  cin>>c;
+  cout<<"Enter Grade 4: ";
+  cin>>d;
+  cout<<"Enter Grade 5: ";
+  cin>>e;
+  avg=(a+b+c+d+e)/5;
+  cout<<fixed<<setprecision(1)<<"The average grade is: "<< avg<<endl;
+}
+
+//Ques-03
+#include<iostream>
+using namespace std;
+int main(){
+  int a;
+  cout<<"Enter a number: ";
+  cin>>a;
+  cout<<"The square of "<<a<<" is: "<<a*a<<endl;
 }
