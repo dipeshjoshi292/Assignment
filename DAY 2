@@ -1,0 +1,98 @@
+//QUES 1]
+#include<iostream>
+using namespace std;
+int main(){
+  int a,b,c;
+  cout<<"Enter the first number: ";
+  cin>>a;
+  cout<<"Enter the second number: ";
+  cin>>b;
+  cout<<"Enter the third number: ";
+  cin>>c;
+  if(a>b && a>c){
+    cout<<"The largest number is: "<<a;
+    
+  }
+  if(b>a && b>c){
+    cout<<"The largest number is: "<<b;
+    
+  }
+  if(c>b && c>a){
+    cout<<"The largest number: "<<c;
+    
+  }
+}
+
+//QUES 2]
+#include<iostream>
+using namespace std;
+int main(){
+  int a;
+  cout<<"Enter a number: ";
+  cin>>a;
+  if(a>=90 && a<=100){
+    cout<<"Grade A";
+  }
+  else if (a>=80 && a<=89){
+    cout<<"Grade B";
+  }
+  else if(a>=70 && a<=79){
+    cout<<"Grade C";
+  }
+  else if(a>=60 && a<=69){
+    cout<<"Grade D";
+  }
+  else if(a>=0 && a<=60){
+    cout<<"Grade F";
+  }
+}
+
+//QUES 3]
+#include<iostream>
+using namespace std;
+int main(){
+  int a;
+  cout<<"Enter a number: ";
+  cin>>a;
+  switch(a){
+    case 1:
+    cout<<"January";
+    break;
+    case 2:
+    cout<<"Feburary";
+    break;
+    case 3:
+    cout<<"March";
+    break;
+    case 4:
+    cout<<"April";
+    break;
+    case 5:
+    cout<<"May";
+    break;
+    case 6:
+    cout<<"June";
+    break;
+    case 7:
+    cout<<"July";
+    break;
+    case 8:
+    cout<<"August";
+    break;
+    case 9:
+    cout<<"September";
+    break;
+    case 10:
+    cout<<"October";
+    break;
+    case 11:
+    cout<<"November";
+    break;
+    case 12:
+    cout<<"December";
+    break;
+    default:
+    cout<<"Invalid";
+    break;
+  }
+}
