@@ -1,0 +1,45 @@
+//Q1  
+#include <iostream.h>
+#include<string.h>
+using namespace std;
+int func(string str){
+return str.length();
+}
+int main() {
+ string s;
+ cin>>s;
+ 
+ cout<<"length: "<<func(s);
+
+}
+
+//Q2
+#include <iostream>
+#include <string>
+int countCharacter(const std::string &str, char ch) {
+    int count = 0;
+    for (char c : str) {
+        if (c == ch) count++;
+    }
+    return count;
+}
+int main() {
+    std::string str = "Hello, World!";
+    char character = 'l';
+    std::cout << countCharacter(str, character) << std::endl;
+    return 0;
+}
+
+//Q3
+#include<iostream>
+#include<string.h>
+using namespace std;
+string func(string &str1,string &str2){
+    return str1+str2;
+   
+}
+int main(){
+    string s1,s2;
+    cin>>s1>>s2;
+    cout<<func(s1,s2);
+}
